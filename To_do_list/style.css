@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+}
+
+#input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    border: solid 1px black;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: #ffffff; 
+}   
+
+.tarefas {
+    margin-top: 20px; 
+    display: flex;
+    flex-direction: column; 
+    align-items: start;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+    width: 500px; 
+}
+
+.botao {
+    margin-left: 350px;
+    margin-top: 5px;
+}
+
+.botao:hover {
+    box-shadow: inset 400px 0 0 0 #e40505;
+}
+
+.tar {
+    margin-top: 5px;
+}
